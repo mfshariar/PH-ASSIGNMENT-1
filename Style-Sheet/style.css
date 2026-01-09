@@ -30,7 +30,7 @@ nav .menu-bar a{
     font-size: 16px;
     text-decoration: none;
 }
-.all-btn{
+.btn1{
     background-color: #469165;
     border: none;
     color: #ffffff;
@@ -40,8 +40,8 @@ nav .menu-bar a{
     font-weight: 600;
 }
 
-.all-btn:hover{
-    background-color: #ffffff;
+.btn1:hover{
+    background-color: #ffffff00;
     border: 1px solid #469165;
     color: #469165;
     padding: 12.5px 16px;
@@ -49,4 +49,88 @@ nav .menu-bar a{
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+}
+
+#hero-bar{
+    background: url(../assets/hero-bg.png);
+    padding: 115.5px 120px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#hero-bar .hero-contant, .banner-button{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-button{
+    gap: 16px;
+    margin: 32px auto 0;
+}
+#hero-bar .hero-contant{
+    color: #ffffff;
+    margin-top: 0;
+}
+#hero-bar .hero-contant .subtitle{
+    background-color: #ffffff;
+    color: #469165;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 20%;
+    margin: 0 auto;
+}
+#hero-bar .hero-contant h1{
+    margin-top: 16px;
+    font-size: 72px;
+    line-height: 84px;
+}
+#hero-bar .hero-contant span{
+    color: #469165;
+}
+#hero-bar .hero-contant .sub2{
+    margin-top: 16px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.btn2{
+    background-color: #469165;
+    border: none;
+    color: #ffffff;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn2:hover{
+    background-color: #ffffff00;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn3{
+    background-color: #46916500;
+    border: .5px solid white;
+    color: #ffffff;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn3:hover{
+    background-color: #469165;
+    border: none;
+    color: #ffffff;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
 }
