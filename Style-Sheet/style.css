@@ -266,3 +266,33 @@ nav .menu-bar a{
     font-size: 16px;
     color: #627382;
 }
+footer{
+    background-color: #001931;
+}
+
+.full-footer{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.foot{
+    padding: 120px 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot .s-link h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 16px;
+    color: #ffffff;
+}
+.s-icon a img{
+    width: 20px;
+    margin-right: 16px;
+}
+.footer-co p{
+    font-size: 16px;
+    color: #fafafa;
+    padding: 30px 0;
+    align-items: center;
+    text-align: center;
+}
