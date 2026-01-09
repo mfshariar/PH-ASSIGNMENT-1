@@ -134,3 +134,64 @@ nav .menu-bar a{
     font-size: 16px;
     font-weight: 600;
 }
+#note-section{
+    padding: 100px 0 0;
+}
+#note-section  .note-contant{
+    margin: 0 auto;
+    width: 71%;
+    max-width: 1140px;
+}
+#note-section  .note-contant .note-box{
+    display: flex;
+    padding: 44px;
+    gap: 24px;
+}
+.note-c{
+    text-align: center;
+}
+.note-c h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.note-c p{
+    padding-top: 12px;
+    font-size: 16px;
+    color: #627382;
+}
+.note-box .note-card{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 50px  24px;
+    border: none;
+    box-shadow: 0 0 8px 0 #00000025 ;
+    max-width: 350px;
+    text-align: center;
+}
+.note-card .note-icon-circle{
+    margin: 0 auto;
+    background-color: #F95555;
+    max-width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 16px;
+}
+.note-card .note-icon-circle img{
+    width: 32px;
+    height: 32px;
+    /* justify-content: space-around; */
+    /* display: block;  */
+}
+.note-card h4{
+    font-size: 20px;
+    color: #001931;
+    margin-bottom: 20px;
+}
+.note-card p{
+    font-size: 14px;
+    color: #627382;
+    line-height: 20px;
+}
