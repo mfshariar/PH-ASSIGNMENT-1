@@ -195,3 +195,43 @@ nav .menu-bar a{
     color: #627382;
     line-height: 20px;
 }
+
+#brain{
+    margin: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.b-contant h5{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.b-contant h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    padding: 16px 0;
+}
+.b-contant p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+.s-info{
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+}
+.s-info img{
+    width: 20px;
+}
+.s-info h6{
+    font-size: 16px;
+    font-weight: 500;
+}
