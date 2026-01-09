@@ -203,6 +203,7 @@ nav .menu-bar a{
     display: flex;
     align-items: center;
     gap: 60px;
+    padding: 120px 0;
 }
 .b-contant h5{
     color: #469165;
@@ -234,4 +235,34 @@ nav .menu-bar a{
 .s-info h6{
     font-size: 16px;
     font-weight: 500;
+}
+#c-part{
+    margin: 2px 0 120px 0;
+}
+.c-box{
+    margin: 0 auto;
+    max-width: 1140px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    padding: 80px 40px;
+    justify-content: center;
+}
+.c-box h1{
+    font-size: 40px;
+    color: #001931;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.c-box .c-subtitle{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    padding-bottom: 24px;
+}
+.end-meg{
+    padding-top: 16px;
+    font-size: 16px;
+    color: #627382;
 }
